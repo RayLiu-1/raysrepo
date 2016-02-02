@@ -4,7 +4,7 @@
 
 int main(){
   printf("Hello World\n");
-  printf("The strings before resversing\n");
+  printf("The strings before resversing:\n");
   char a[] = "Yes";
   char b[] = "qweasd";
   char c[] = "!@3ijm";
@@ -14,7 +14,7 @@ int main(){
   printf("\n");  
   printf(c);
   printf("\n");
-  printf("The strings after resversing\n");
+  printf("The strings after resversing:\n");
   reverse_string(a,3);
   printf(a);
   printf("\n");
@@ -33,8 +33,8 @@ int main(){
   printf(e);
   printf("\n");
   char f[] = "Does it reverse \n\0\t correctly?";
-  reverse_string(f,31);
-  printf("f");
+  reverse_string(f,30);
+  printf(f);
   printf("\n");
   return 0;
 }
